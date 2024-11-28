@@ -94,7 +94,6 @@ router.post("/login", async (req, res) => {
   }
 });
 
-
 router.put("/update", async (req, res) => {
   // Task 2: Validate the input using `validationResult` and return approiate message if there is an error.
   const errors = validationResult(req);
